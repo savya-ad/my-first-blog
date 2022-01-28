@@ -1,4 +1,7 @@
 from django.shortcuts import render
 
-def home(request):
-	return render(request, 'home.html', {})
+# def home(request):
+# 	return render(request, 'home.html', {})
+
+def post_list(request):
+    return render(request, 'blogs/post_list.html', {})
